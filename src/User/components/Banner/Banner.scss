@@ -1,0 +1,22 @@
+@import "../../../style/style.scss";
+
+.banner {
+    @include position(relative);
+    background-image: url("../../../assets/banner.jpg");
+    height: 75vh;
+    background-size: cover;
+    
+    &-container {
+        text-align: center;
+        align-items: center;
+        height:100%;
+    }
+
+    h2 {
+        @include textStyle(4rem, $color-white, 500, none);
+    }
+
+    p {
+        @include textStyle(1.6rem, $color-white, 400, none);
+    }
+}

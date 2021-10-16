@@ -1,0 +1,21 @@
+@import "../../../../style/style.scss";
+
+.button-group {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around;
+
+    .button {
+        @include textStyle(1rem, $color-white, 400, none);
+        border: none;
+    }
+
+    .gradient-1 {
+        background: linear-gradient(344deg,#fa00ff 0%, #ff00a8 40%, #8000ff 80%);
+    }
+
+    .gradient-2 {
+        background: linear-gradient(170deg,#fa00ff 0%, #ff00a8 40%, #8000ff 80%);
+    }
+}

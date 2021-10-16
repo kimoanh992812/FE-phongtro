@@ -1,0 +1,7 @@
+@import "../../../style/style.scss";
+
+.nav {
+    a {
+        @include textStyle(1.2rem, $color-white, 700, none );
+    }
+}
